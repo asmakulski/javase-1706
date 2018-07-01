@@ -1,4 +1,4 @@
-package Ex_TryCatch;
+package ex_TryCatch;
 
 public class MainTryCatch {
 
@@ -6,7 +6,12 @@ public class MainTryCatch {
 
     public static void main(String[] args) {
         fillTable(4);
-        printTable();
+
+        try {
+            printTable();
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Index out of bounds");
+        }
     }
 
     private static void fillTable(int param) {
@@ -16,8 +21,6 @@ public class MainTryCatch {
     }
 
     private static void printTable() {
-        for (int i = 0; i < tab.length; i++) {
-            System.out.println(tab[i]);
-        }
+        System.out.println(tab[15]);
     }
 }
