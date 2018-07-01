@@ -1,4 +1,4 @@
-package com3;
+package Ex_Interface;
 
 public interface Menu {
 

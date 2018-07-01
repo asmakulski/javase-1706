@@ -1,4 +1,4 @@
-package com;
+package Ex_Inheritance;
 
 public class Bear extends Animal{
 

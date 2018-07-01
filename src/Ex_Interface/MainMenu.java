@@ -1,4 +1,4 @@
-package com3;
+package Ex_Interface;
 
 public class MainMenu implements Menu{
     private int number;

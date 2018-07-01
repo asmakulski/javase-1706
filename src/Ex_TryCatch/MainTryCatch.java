@@ -1,4 +1,4 @@
-package com2;
+package Ex_TryCatch;
 
 public class MainTryCatch {
 
