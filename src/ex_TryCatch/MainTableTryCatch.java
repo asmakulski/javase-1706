@@ -1,6 +1,6 @@
 package ex_TryCatch;
 
-public class MainTryCatch {
+public class MainTableTryCatch {
 
     private static int[] tab = new int[10];
 
@@ -12,6 +12,7 @@ public class MainTryCatch {
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Index out of bounds");
         }
+        System.out.println("The application continues to run");
     }
 
     private static void fillTable(int param) {

@@ -1,6 +1,6 @@
 package ex_Interface;
 
-public interface Menu {
+public interface InterfaceMenu {
 
     void show();
     void close();
